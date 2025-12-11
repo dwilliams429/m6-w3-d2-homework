@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import "./App.css";
 
 function App() {
-  // which app is currently selected
+  // Currently selected app
   const [selectedApp, setSelectedApp] = useState("");
 
-  // list of TV apps and their logo URLs
+  //  TV apps and their logo URLs
   const apps = [
     {
       id: "Netflix",
@@ -23,7 +23,7 @@ function App() {
     {
       id: "Hulu",
       name: "Hulu",
-      // ✅ working Hulu logo URL
+      // working Hulu logo URL
       logo: "https://www.pngmart.com/files/23/Hulu-Logo-PNG-Pic.png",
     },
     {
